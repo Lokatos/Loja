@@ -4,10 +4,24 @@
     box-sizing: border-box;
 }
 
+header h1,
+section h2{
+    font-family: "Roboto", serif;
+}
+
+body{
+    font-family: "Bungee", serif;
+}
+
 header{
     padding: 16px 0;
     background-color: #182c61;
     color: #ecf0f1;
+}
+
+header h1,
+section h2{
+    font-weight: normal;
 }
 
 header nav li{
@@ -27,8 +41,66 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.marcas img{
+    height: 24px;
+}
+
+.marcas li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding:  24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: #182c61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+}
+
+.social img{
+    height: 24px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contatos-formas{
+    display: flex;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
 }
